@@ -7,7 +7,7 @@ class Hello extends React.Component<HelloProps, {}> {
         return (
             <h1 className="welcome">
                 <img src="./images/icon-home.png" alt="Home"/>
-                Hello from {this.props.compiler} and {this.props.framework} and using react-icons! <FaBeer /> <FaRegThumbsUp />
+                Hello from {this.props.compiler} and {this.props.framework}. Using for testing react-icons! <FaBeer /> <FaRegThumbsUp />
             </h1>
         );
     }
